@@ -14,7 +14,7 @@ export default function RootLayout({
     <html lang="en">
       <head />
       <body>
-        <div>
+        <div className='flex'>
           {/* Sidebar */}
           {/* ClientProvider - Notifications  */}
           
