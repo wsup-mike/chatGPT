@@ -12,7 +12,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <head />
+      <body>
+        <div>
+          {/* Sidebar */}
+          {children}
+        </div>  
+      </body>
     </html>
   )
 }
