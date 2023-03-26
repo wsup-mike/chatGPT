@@ -1,4 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Chat GPT Clone Project (Currently in Progress as of 3.26.23)
+Credit: Special thanks to [Sonny Sangha - YouTube](https://www.youtube.com/@SonnySangha)
+
+![image](https://user-images.githubusercontent.com/40747156/227783178-23dd006b-ac8b-4378-b8fb-6ae3adbed6ba.png)
+
+
+## Build includes:
++ React with Next.js 14
++ TypeScript
++ TailWindCSS
++ Firebase
++ Utilizing the ChapGPT API from OpenAI
++ NextAuth / FirebaseAuth
++ useSWR
+
+
+### This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -35,4 +51,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
