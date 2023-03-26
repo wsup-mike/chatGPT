@@ -1,4 +1,5 @@
-import '../styles/globals.css';
+import '@/styles/globals.css'
+
 
 export const metadata = {
   title: 'Next.js',
@@ -18,7 +19,7 @@ export default function RootLayout({
           {/* Sidebar */}
           {/* ClientProvider - Notifications  */}
           
-          <div className=''>{children}</div>
+          <div className='bg-[#343541] flex-1'>{children}</div>
         </div>  
       </body>
     </html>
