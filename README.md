@@ -1,7 +1,7 @@
-#Chat GPT Clone Project In Progress (As of 3.26.23)
+# Chat GPT Clone Project In Progress (As of 3.26.23)
 Credit: Special thanks to [Sonny Sangha - YouTube](Credit: Sonny Sangha - YouTube)
 
-##Build includes:
+## Build includes:
 + React with Next.js 14
 + TypeScript
 + TailWindCSS
@@ -11,7 +11,7 @@ Credit: Special thanks to [Sonny Sangha - YouTube](Credit: Sonny Sangha - YouTub
 + useSWR
 
 
-###This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
