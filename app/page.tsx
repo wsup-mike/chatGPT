@@ -11,11 +11,12 @@ function HomePage() {
           <h2>Examples</h2>
         </div>
 
-        <div>
+        <div className="space-y-2">
           <p className="infoText">"Explain something to me."</p>
           <p className="infoText">"What is the difference between a dog and a cat?"</p>
           <p className="infoText">"What is the color of the sun?"</p>
         </div>
+
       </div>
     </div>
   )
