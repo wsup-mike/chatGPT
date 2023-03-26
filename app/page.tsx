@@ -8,7 +8,7 @@ function HomePage() {
       <div className="border border-blue-500">
         <div className="flex flex-col items-center justify-center mb-5 border border-red-500">
           {/* Sun Icon */}
-          <h2>Examples</h2>
+          <h3>Examples</h3>
         </div>
 
         <div className="space-y-2">
