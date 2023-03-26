@@ -1,5 +1,5 @@
 # Chat GPT Clone Project In Progress (As of 3.26.23)
-Credit: Special thanks to [Sonny Sangha - YouTube](Credit: Sonny Sangha - YouTube)
+Credit: Special thanks to [Sonny Sangha - YouTube](https://www.youtube.com/@SonnySangha)
 
 ## Build includes:
 + React with Next.js 14
