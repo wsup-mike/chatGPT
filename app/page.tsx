@@ -13,9 +13,9 @@ function HomePage() {
         </div>
 
         <div className="space-y-1">
-          <p className="infoText">"Explain something to me."</p>
+          <p className="infoText">"Explain quantum computing in simple terms"</p>
           <p className="infoText">"What is the difference between a dog and a cat?"</p>
-          <p className="infoText">"What is the color of the sun?"</p>
+          <p className="infoText">"How do I make an HTTP request in JavaScript?"</p>
         </div>
       </div>
       <div className='mt-3'>
