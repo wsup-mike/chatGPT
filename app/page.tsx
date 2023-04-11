@@ -6,7 +6,7 @@ function HomePage() {
       <h1 className="text-xl font-bold mb-14 border border-yellow-400 ">ChatGPT</h1>
 
       <div className="border border-blue-500">
-        <div className="flex flex-col items-center justify-center mb-5 border border-red-500">
+        <div className="flex flex-col items-center justify-center mb-2 border border-red-500">
           {/* Sun Icon */}
           <h2>Examples</h2>
         </div>
