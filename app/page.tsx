@@ -22,7 +22,7 @@ function HomePage() {
         <div className="flex flex-col items-center justify-center mb-5">
           {/* Bolt Icon */}
           <BoltIcon className='h-6 w-6'/>
-          <p className='text-xs'>Examples</p>
+          <p className='text-xs'>Capabilities</p>
         </div>
 
         <div className="space-y-1">
@@ -35,7 +35,7 @@ function HomePage() {
         <div className="flex flex-col items-center justify-center mb-5">
           {/* Exclamation Triangle Icon */}
           <ExclamationTriangleIcon className='h-6 w-6'/>
-          <p className='text-xs'>Examples</p>
+          <p className='text-xs'>Limitations</p>
         </div>
 
         <div className="space-y-1">
