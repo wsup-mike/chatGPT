@@ -1,4 +1,4 @@
-import { BoltIcon, SunIcon } from '@heroicons/react/24/outline'
+import { BoltIcon, ExclamationTriangleIcon, SunIcon } from '@heroicons/react/24/outline'
 
 function HomePage() {
   return (
@@ -20,7 +20,7 @@ function HomePage() {
       </div>
       <div>
         <div className="flex flex-col items-center justify-center mb-5">
-          {/* Sun Icon */}
+          {/* Bolt Icon */}
           <BoltIcon className='h-6 w-6'/>
           <p className='text-xs'>Examples</p>
         </div>
@@ -33,8 +33,8 @@ function HomePage() {
       </div>
       <div>
         <div className="flex flex-col items-center justify-center mb-5">
-          {/* Sun Icon */}
-          <SunIcon className='h-6 w-6'/>
+          {/* Exclamation Triangle Icon */}
+          <ExclamationTriangleIcon className='h-6 w-6'/>
           <p className='text-xs'>Examples</p>
         </div>
 
