@@ -9,7 +9,7 @@ function HomePage() {
         <div className="flex flex-col items-center justify-center mb-5 border border-red-500">
           {/* Sun Icon */}
           <SunIcon className='h-6 w-6'/>
-          <h2>Examples</h2>
+          <p className='text-xs'>Examples</p>
         </div>
 
         <div className="space-y-1">
