@@ -1,4 +1,4 @@
-
+import { SunIcon } from '@heroicons/react/24/outline'
 
 function HomePage() {
   return (
@@ -8,6 +8,7 @@ function HomePage() {
       <div className="border border-blue-500">
         <div className="flex flex-col items-center justify-center mb-2 border border-red-500">
           {/* Sun Icon */}
+          <SunIcon className='h-6 w-6'/>
           <h2>Examples</h2>
         </div>
 
