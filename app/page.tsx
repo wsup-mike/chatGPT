@@ -2,7 +2,7 @@ import { BoltIcon, ExclamationTriangleIcon, SunIcon } from '@heroicons/react/24/
 
 function HomePage() {
   return (
-    <div className="h-screen flex flex-col items-center justify-center text-white border border-blue-400 px-2">
+    <div className="flex flex-col items-center justify-center text-white border border-blue-400 px-2">
       <h1 className="text-2xl font-bold mb-14">ChatGPT</h1>
 
       <div>
