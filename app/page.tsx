@@ -26,9 +26,9 @@ function HomePage() {
         </div>
 
         <div className="space-y-1">
-          <p className="infoText">"Explain something to me."</p>
-          <p className="infoText">"What is the difference between a dog and a cat?"</p>
-          <p className="infoText">"What is the color of the sun?"</p>
+          <p className="infoText">Remembers what uses said earlier in the conversation</p>
+          <p className="infoText">Allows users to provide follow-up corrections</p>
+          <p className="infoText">Trained to decline inappropriate comments</p>
         </div>
       </div>
       <div className='mt-3'>
@@ -39,9 +39,9 @@ function HomePage() {
         </div>
 
         <div className="space-y-1">
-          <p className="infoText">"Explain something to me."</p>
-          <p className="infoText">"What is the difference between a dog and a cat?"</p>
-          <p className="infoText">"What is the color of the sun?"</p>
+          <p className="infoText">May occasionally generate incorrect information</p>
+          <p className="infoText">May occasionally produce harmful or biased content</p>
+          <p className="infoText">Limited knowledge of world and events after 2021</p>
         </div>
       </div>
       
