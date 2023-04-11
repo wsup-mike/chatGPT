@@ -18,7 +18,7 @@ function HomePage() {
           <p className="infoText">"What is the color of the sun?"</p>
         </div>
       </div>
-      <div>
+      <div className='mt-3'>
         <div className="flex flex-col items-center justify-center mb-5">
           {/* Bolt Icon */}
           <BoltIcon className='h-6 w-6'/>
