@@ -1,6 +1,8 @@
 function NewChatButton() {
   return (
-    <div>NewChatButton</div>
+    <div>
+        <p>New chat</p>
+    </div>
   )
 }
 
