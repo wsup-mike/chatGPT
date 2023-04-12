@@ -5,7 +5,7 @@ function HomePage() {
     <div className="flex flex-col md:h-screen items-center justify-center text-white border border-blue-400 px-2">
       <h1 className="text-2xl font-bold mb-14">ChatGPT Clone</h1>
 
-      <div className='flex flex-col md:flex-row space-x-2 space-y-5'>
+      <div className='flex flex-col md:flex-row space-x-2'>
         <div>
         <div className="flex flex-col items-center justify-center mb-5">
           {/* Sun Icon */}
@@ -21,7 +21,7 @@ function HomePage() {
         </div>
       
         <div>
-        <div className="flex flex-col items-center justify-center mb-5">
+        <div className="flex flex-col items-center justify-center">
           {/* Bolt Icon */}
           <BoltIcon className='h-6 w-6'/>
           <p className='text-xs'>Capabilities</p>
