@@ -20,7 +20,6 @@ export default function RootLayout({
           {/* Sidebar */}
           <SideBar />
           {/* ClientProvider - Notifications  */}
-          
           <div className='bg-[#343541] flex-1'>{children}</div>
         </div>  
       </body>
