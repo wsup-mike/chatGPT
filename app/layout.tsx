@@ -18,7 +18,7 @@ export default function RootLayout({
       <body>
         <div className='flex'>
           {/* Sidebar */}
-          <div className='bg-[#202123]'>
+          <div className='bg-[#202123] max-w-xs h-screen overflow-y-scroll'>
             <SideBar />
           </div>
           {/* ClientProvider - Notifications  */}
