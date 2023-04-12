@@ -1,3 +1,4 @@
+import NewChatButton from "./NewChatButton";
 
 
 function SideBar() {
@@ -6,7 +7,7 @@ function SideBar() {
         <div className="flex-1">
             <div>
                 {/* New Chat Button */}
-                
+                <NewChatButton />
                 {/* Model Selection Dropdown */}
                 <div>
 
