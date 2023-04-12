@@ -5,7 +5,7 @@ function HomePage() {
     <div className="flex flex-col items-center justify-center text-white border border-blue-400 px-2">
       <h1 className="text-2xl font-bold mb-14">ChatGPT</h1>
 
-      <div className='flex space-x-2'>
+      <div className='flex-col md:flex-row space-x-2 '>
         <div>
         <div className="flex flex-col items-center justify-center mb-5">
           {/* Sun Icon */}
