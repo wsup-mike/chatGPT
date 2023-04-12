@@ -5,7 +5,8 @@ function HomePage() {
     <div className="flex flex-col items-center justify-center text-white border border-blue-400 px-2">
       <h1 className="text-2xl font-bold mb-14">ChatGPT</h1>
 
-      <div>
+      <div className='flex'>
+        <div>
         <div className="flex flex-col items-center justify-center mb-5">
           {/* Sun Icon */}
           <SunIcon className='h-6 w-6'/>
@@ -17,8 +18,9 @@ function HomePage() {
           <p className="infoText">"What is the difference between a dog and a cat?"</p>
           <p className="infoText">"How do I make an HTTP request in JavaScript?"</p>
         </div>
+        </div>
       
-      
+        <div>
         <div className="flex flex-col items-center justify-center mb-5">
           {/* Bolt Icon */}
           <BoltIcon className='h-6 w-6'/>
@@ -30,8 +32,9 @@ function HomePage() {
           <p className="infoText">Allows users to provide follow-up corrections</p>
           <p className="infoText">Trained to decline inappropriate comments</p>
         </div>
+        </div>
       
-      
+        <div>
         <div className="flex flex-col items-center justify-center mb-5">
           {/* Exclamation Triangle Icon */}
           <ExclamationTriangleIcon className='h-6 w-6'/>
@@ -42,6 +45,7 @@ function HomePage() {
           <p className="infoText">May occasionally generate incorrect information</p>
           <p className="infoText">May occasionally produce harmful or biased content</p>
           <p className="infoText">Limited knowledge of world and events after 2021</p>
+        </div>
         </div>
       </div>
     </div>
