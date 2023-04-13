@@ -22,14 +22,19 @@ export default async function RootLayout({
       <head />
       <body>
         <SessionProvider session={session}>
-          <div className='flex'>
-            {/* Sidebar */}
-            <div className='bg-[#202123] max-w-xs md:min-w-[11rem] overflow-y-auto'>
-              <SideBar />
-            </div>
-            {/* ClientProvider - Notifications  */}
-            <div className='bg-[#343541] flex-1'>{children}</div>
-          </div>  
+          {if session ? (
+            
+          ) : (
+              <div className='flex'>
+                {/* Sidebar */}
+                <div className='bg-[#202123] max-w-xs md:min-w-[11rem] overflow-y-auto'>
+                  <SideBar />
+                </div>
+                {/* ClientProvider - Notifications  */}
+                <div className='bg-[#343541] flex-1'>{children}</div>
+              </div> 
+            )}
+           
         </SessionProvider>
       </body>
     </html>
