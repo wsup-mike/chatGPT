@@ -3,6 +3,7 @@ import '@/styles/globals.css';
 import { getServerSession } from 'next-auth';
 import { authOptions } from '@/pages/api/auth/[...nextauth]';
 import { SessionProvider } from 'next-auth/react';
+import Login from '@/components/Login';
 
 export const metadata = {
   title: 'Next.js',
@@ -22,8 +23,8 @@ export default async function RootLayout({
       <head />
       <body>
         <SessionProvider session={session}>
-          {if session ? (
-            
+          {!session ? (
+            <Login />
           ) : (
               <div className='flex'>
                 {/* Sidebar */}
