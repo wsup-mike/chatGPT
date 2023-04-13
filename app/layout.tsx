@@ -1,7 +1,7 @@
 import SideBar from '@/components/SideBar';
 import '@/styles/globals.css';
 import { getServerSession } from 'next-auth';
-
+import { authOptions } from '@/pages/api/auth/[...nextauth]';
 
 export const metadata = {
   title: 'Next.js',
@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
 
-  const session = getServerSession();
+  
 
   return (
     <html lang="en">
