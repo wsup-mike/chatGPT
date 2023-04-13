@@ -13,6 +13,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
+  const session = getServerSession();
+
   return (
     <html lang="en">
       <head />
