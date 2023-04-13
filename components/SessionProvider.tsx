@@ -8,7 +8,7 @@ type Props = {
     session: Session | null;
 }
 
-export function SessionProvider() {
+export function SessionProvider({ children, session }: Props) {
   return (
     <Provider>
         {children}
