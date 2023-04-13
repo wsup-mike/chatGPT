@@ -1,5 +1,6 @@
 import SideBar from '@/components/SideBar';
-import '@/styles/globals.css'
+import '@/styles/globals.css';
+import { getServerSession } from 'next-auth';
 
 
 export const metadata = {
