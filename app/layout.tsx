@@ -2,6 +2,7 @@ import SideBar from '@/components/SideBar';
 import '@/styles/globals.css';
 import { getServerSession } from 'next-auth';
 import { authOptions } from '@/pages/api/auth/[...nextauth]';
+import { SessionProvider } from 'next-auth/react';
 
 export const metadata = {
   title: 'Next.js',
@@ -20,14 +21,16 @@ export default async function RootLayout({
     <html lang="en">
       <head />
       <body>
-        <div className='flex'>
-          {/* Sidebar */}
-          <div className='bg-[#202123] max-w-xs md:min-w-[11rem] overflow-y-auto'>
-            <SideBar />
-          </div>
-          {/* ClientProvider - Notifications  */}
-          <div className='bg-[#343541] flex-1'>{children}</div>
-        </div>  
+        <SessionProvider session={session}>
+          <div className='flex'>
+            {/* Sidebar */}
+            <div className='bg-[#202123] max-w-xs md:min-w-[11rem] overflow-y-auto'>
+              <SideBar />
+            </div>
+            {/* ClientProvider - Notifications  */}
+            <div className='bg-[#343541] flex-1'>{children}</div>
+          </div>  
+        </SessionProvider>
       </body>
     </html>
   )
